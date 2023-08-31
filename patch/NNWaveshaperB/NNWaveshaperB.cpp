@@ -28,7 +28,7 @@ void AudioCallback(AudioHandle::InputBuffer in,
 
   cpu_load_meter.OnBlockEnd();
 
-  // see CMSIS/DSP/Examples/ARM/arm_matrix_example/arm_matrix_example_f32.c
+  // see CMSIS/DSP/Examples/ARM/arm_matrix_example/arm_matrix_example_f32.c .
   // https://github.com/electro-smith/libDaisy/blob/ae9b45e2927aafba5f261f2ff36e3f41ae74d019/Drivers/CMSIS/DSP/Examples/ARM/arm_matrix_example/arm_matrix_example_f32.c
 
   // from ..../Drivers/CMSIS/DSP/Examples/ARM/arm_matrix_example/arm_matrix_example_f32.c

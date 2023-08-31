@@ -16,7 +16,6 @@ C_INCLUDES += \
 # Project Name
 TARGET = NNWaveshaperB
 
-
 # Sources
 CPP_SOURCES = NNWaveshaperB.cpp
 
