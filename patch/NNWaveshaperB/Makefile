@@ -49,7 +49,8 @@ CCSOURCES +=	$(wildcard edge-impulse-sdk/tensorflow/lite/kernels/*.cc) \
 				$(wildcard edge-impulse-sdk/tensorflow/lite/core/api/*.cc)
 
 # Library Locations
-LIBDAISY_DIR = ../../libDaisy/
+# note: using LOCAL libdaisy since it's hacked w.r.t CMSIS and EI_sdk
+LIBDAISY_DIR = ./libDaisy/
 DAISYSP_DIR = ../../DaisySP/
 
 # Core location, and generic Makefile.
