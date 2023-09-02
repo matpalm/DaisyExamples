@@ -1,6 +1,5 @@
 #include <string>
 
-//#include "arm_math.h"
 #include "edge-impulse-sdk/classifier/ei_run_classifier.h"
 
 #include "daisy_patch.h"
